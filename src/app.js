@@ -17,7 +17,7 @@ log4js.configure({
 const logger = log4js.getLogger();
 // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
 const superagent = require("superagent");
-const { CloudClient } = require("cloud189-sdk");
+const { CloudClient } = require("cloud189_dk");
 const serverChan = require("./push/serverChan");
 const telegramBot = require("./push/telegramBot");
 const wecomBot = require("./push/wecomBot");
